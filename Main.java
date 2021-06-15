@@ -28,10 +28,6 @@ public class Main {
                 while ((I = br.readLine())!= null){
                     System.out.println(I);
                 }
-
-            }
-            catch (IOException ex){
-                System.out.println(ex.getMessage());
             }
         }
     }
